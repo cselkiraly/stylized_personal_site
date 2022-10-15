@@ -1,0 +1,50 @@
+h1 {
+    font-weight: bold;
+    text-shadow: 10px;
+    text-decoration: solid;
+    color: lightsalmon;
+    background-color: aquamarine;
+    margin-top:;
+}
+
+body {
+    background-color: teal;
+    margin: 0px;
+}
+
+hr {
+    width: 10%;
+    border-style: dotted none none;
+    border-width: 10px;
+    align: center;
+    color: salmon;
+}
+
+.top-container {
+    height: 5%; 
+    background-color: lightcoral;
+    font-size: 80%;
+    padding-left: 1.5%;
+}
+
+.middle-container {
+    background-color: teal;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.bottom-container {
+    background-color: rgb(27, 78, 52);
+}
+
+img {
+    align-content: center;
+}
+
+table.center {
+     margin-left:auto; margin-right:auto;
+}
+
+td.center {
+     text-align: center; 
+}
