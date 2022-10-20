@@ -1,50 +1,180 @@
 h1 {
-    font-weight: bold;
-    text-shadow: 10px;
+    font-size: 8rem;
     text-decoration: solid;
     color: lightsalmon;
-    background-color: aquamarine;
-    margin-top:;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px auto 10px auto;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 5rem;
+    text-decoration: solid;
+    color: lightsalmon;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px auto 10px auto;
+    line-height: 2;
+}
+
+h3 {
+    font-size: 4rem;
+    color: lightsalmon;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px auto 10px auto;
+    font-weight: bolder;
+}
+
+h3.left {
+    clear: left;
+}
+
+h3.right {
+    clear: right;
 }
 
 body {
     background-color: teal;
-    margin: 0px;
+    margin: auto auto auto auto;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-hr {
+.underline {
+    text-decoration: underline;
+}
+
+hr.dots {
     width: 10%;
     border-style: dotted none none;
-    border-width: 10px;
-    align: center;
+    border-width: 24px;
     color: salmon;
+}
+
+hr.grass {
+    border-color: #7CB74C;
+    height: 2%;
+    border: solid;
 }
 
 .top-container {
     height: 5%; 
     background-color: lightcoral;
-    font-size: 80%;
+    font-size: 0.8rem;
     padding-left: 1.5%;
+    position: relative;
 }
 
-.middle-container {
+.scenery-container {
     background-color: teal;
     text-align: center;
-    margin-top: 2%;
+    background-color: teal;
+    position: relative;
+}
+
+.content-container {
+    background-color: beige;
+    text-align: center;
+    position: relative;
 }
 
 .bottom-container {
-    background-color: rgb(27, 78, 52);
-}
-
-img {
-    align-content: center;
+    text-align: center;
+    width: 50%;
+    margin-top: 50px, auto, auto, auto;
+    position: relative;
+    background-color: teal;
 }
 
 table.center {
      margin-left:auto; margin-right:auto;
 }
 
-td.center {
-     text-align: center; 
+.cloud-bottom-left {
+    width: 80px; transform:  scaleX(-1); position: absolute; left: 42%; bottom: 33%
+}
+
+.cloud-top-left {
+    width: 210px; transform:  scaleX(-1); position: absolute; left: 32%; right: 62%; bottom:40%;
+}
+
+.cloud-top-right {
+    width: 110px; position: absolute; right: 35%; left: 58%; bottom: 48%;
+}
+
+.profile {
+    margin: 100px auto 100px auto;
+    position: relative;
+    width: 50%;
+    line-height: 2;
+}
+
+.skills {
+    position: relative;
+    
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.hobbies {
+    position: relative;
+}
+
+.hobby-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+img.profile {
+    margin-top: 50px;
+}
+
+img.right {
+    float: right;
+    margin-left: 30px;
+}
+
+img.left {
+    float: left;
+    margin-right: 30px;
+}
+
+p {
+    color: teal;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+p.left {
+    clear: left;
+}
+
+p.right {
+    clear: right;
+}
+
+.fancy {
+    font-weight: bolder;    
+}
+
+.email {
+    color: salmon;
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: 30px;
+    float: right;
+}
+.footer-link {
+    color: salmon;
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: 30px;
 }
